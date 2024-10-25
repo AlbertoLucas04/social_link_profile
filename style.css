@@ -1,0 +1,92 @@
+
+@font-face {
+    font-family: "Inter";
+    src: url(./fonts/Inter-Italic-VariableFont_opsz\,wght.ttf);
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    text-align: center;
+    font-family: "Inter";
+}
+
+section {
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 16px;
+    width: 90%;
+    max-width: 430px;
+    margin: 90px auto 0;
+    padding: 20px;
+}
+
+h1 {
+    color: white;
+}
+
+h3 {
+    color: hsl(75, 94%, 57%);
+    margin-top: -15px;
+}
+
+p {
+    color: white;  
+}
+
+article {
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 16px;
+    margin: 20px auto; 
+    width: 90%;
+    max-width: 300px;
+    padding: 10px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.my_photo {
+    height: 120px;
+    width: 138px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+
+.git{
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    section {
+        font-size: 12px;
+        margin-top: 60px; 
+    }
+
+    .my_photo {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media (max-width: 480px) {
+    section {
+        width: 100%;
+        font-size: 12px;
+        padding: 0%;
+    }
+
+    article {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .my_photo {
+        height: 140px;
+        width: 155px;
+        margin-top: 20px;
+    }
+    
+}
+
