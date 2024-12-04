@@ -1,13 +1,12 @@
-
 @font-face {
     font-family: "Inter";
-    src: url(./fonts/Inter-Italic-VariableFont_opsz\,wght.ttf);
+    src: url(../fonts/Inter\,wght.ttf);
 }
 
 body {
     background-color: hsl(0, 0%, 8%);
     text-align: center;
-    font-family: "Inter";
+    font-family: Inter;
 }
 
 section {
@@ -29,13 +28,13 @@ h3 {
 }
 
 p {
-    color: white;  
+    color: white;
 }
 
 article {
     background-color: hsl(0, 0%, 20%);
     border-radius: 16px;
-    margin: 20px auto; 
+    margin: 20px auto;
     width: 90%;
     max-width: 300px;
     padding: 10px;
@@ -45,6 +44,32 @@ article {
 a {
     text-decoration: none;
     color: white;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    color: hsl(75, 94%, 57%);
+    transform: scale(1.1);
+}
+
+.git a:hover {
+    color: hsl(200, 100%, 50%);
+    transform: scale(1.1);
+}
+
+.linkedin a:hover {
+    color: #0077b5;
+    transform: scale(1.1);
+}
+
+.insta a:hover {
+    color: #e1306c;
+    transform: scale(1.1);
+}
+
+.whats a:hover {
+    color: #25d366;
+    transform: scale(1.1);
 }
 
 .my_photo {
@@ -54,14 +79,14 @@ a {
     margin-top: 30px;
 }
 
-.git{
+.git {
     margin-top: 30px;
 }
 
 @media (max-width: 768px) {
     section {
         font-size: 12px;
-        margin-top: 60px; 
+        margin-top: 60px;
     }
 
     .my_photo {
@@ -87,6 +112,4 @@ a {
         width: 155px;
         margin-top: 20px;
     }
-    
 }
-
